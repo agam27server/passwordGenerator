@@ -1,0 +1,7 @@
+await navigator.clipboard. writeText (passwordDisplay. value) is a statement that uses the Clipboard
+API to write the generated password to the clipboard.
+
+The writeText () method of the Clipboard interface writes the provided text to the clipboard. It returns a
+Promise that resolves when the text has been successfully written to the clipboard.
+
+By using the await keyword before the navigator. clipboard. writeText (passwordDisplay. value) statement, the code waits until the Promise resolves before moving on to the next line of code. This ensures that the password is successfully written to the clipboard before any further actions are taken.
